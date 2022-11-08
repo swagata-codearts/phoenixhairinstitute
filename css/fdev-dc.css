@@ -1,6 +1,6 @@
 
 /*-------custom-heading-start----------*/
-.custom-heading h5 {
+.sub-heading {
     font-size: 14px;
     color: var(--c-primary);
     font-weight: 700;
@@ -11,29 +11,29 @@
     margin-bottom: 10px;
   }
 
-.custom-heading h3 {
+.heading {
     font-size: 45px;
     font-weight: 400;
     line-height: 66px;
     font-family: var(--ff-primary);
     color: var(--c-black-700);
-    margin-bottom: 20px;
   }
-.custom-button a{
+  .custom-button{
     background-color: var(--c-primary);
     color: var(--c-white-900);
-    padding: 15px 68px 15px;
+    padding: 0 65px;
     font-family: var(--ff-secondary);
     font-weight: 700;
     font-size: 12px;
     text-align: center;
     text-transform: uppercase;
-    display: inline-block;
+    display: inline-flex;
     border: 2px solid var(--c-primary);
     transition: all 0.3s ease-in-out;
-    margin-top: 35px;
+    height: 42px;
+    align-items: center;
   }
-.custom-button a:hover{
+.custom-button:hover{
     background-color: var(--c-white-900);
     color: var(--c-primary);
   }
