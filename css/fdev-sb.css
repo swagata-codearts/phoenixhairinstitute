@@ -108,6 +108,19 @@
   height: 18px;
 }
 
+/* BANNER SECTION */
+.custom-banner  {
+  position: relative;
+}
+.custom-banner_content {
+  text-align: left;
+  bottom: unset;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  
+}
+
 /* FOOTER SECTION */
 .footer-top {
   padding: 120px 0 46px;
