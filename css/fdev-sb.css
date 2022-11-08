@@ -1,0 +1,147 @@
+/* HEADER SECTION */
+.header-top {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 24px 0;
+}
+.header-top_right {
+  /* flex: 0 0 33.33%; */
+}
+.header-top_right li {
+  padding: 0 30px 0;
+  margin: 0;
+  position: relative;
+}
+.header-top_right li:last-child {
+  padding-right: 0;
+}
+.header-top_right li:first-child {
+  width: 40%;
+}
+.header-top_right li:not(:last-child):after {
+  content: '';
+  width: 1px;
+  height: 103px;
+  background-color: #e6e6e6;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+}
+.header-top_right-link {
+  position: relative;
+  padding-left: 40px;
+  color: var(--c-primary);
+}
+.header-top_right-link > * {
+  margin: 0;
+}
+.header-top_right-link span {
+  font-size: 20px;
+  display: inline-flex;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header-top_right-link h6 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+.header-top_right-link p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--c-black-700);
+}
+
+.header-nav {
+  padding: 20px 0;
+}
+.header-nav .navbar-nav {
+  gap: 0 80px;
+}
+.header-nav_link {
+  color: var(--c-black-700);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 56px;
+  padding: 0 !important;
+  position: relative;
+}
+.header-nav_link::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 0px;
+  background-color: var(--c-primary);
+  bottom: -20px;
+  left: 8px;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.5s ease-in-out;
+}
+.header-nav_link::before {
+  position: absolute;
+  content: '';
+  width: 5px;
+  height: 0;
+  background-color: var(--c-blue-alt);
+  bottom: -20px;
+  left: 0;
+  right: 8px;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
+  transition: all 0.5s ease-in-out;
+}
+.header-nav_link:hover::after  {
+  height: 25px;
+}
+.header-nav_link:hover::before  {
+  height: 18px;
+}
+
+@media (min-width: 1920px) and (max-width: 2500px){
+	
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+	
+}
+
+@media (min-width: 1200px) and (max-width: 1600px){
+	
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+	
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+	
+}
+
+@media only screen and (max-width: 991.98px) {    
+
+}
+
+
+@media (max-width: 767.98px){
+    
+}
+
+@media (max-width: 575.98px){
+    
+}
+
+@media only screen and (max-width: 480.98px) {	
+    
+}
+
