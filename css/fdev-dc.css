@@ -10,19 +10,16 @@
     font-family: var(--ff-secondary);
     margin-bottom: 10px;
   }
-
 .heading {
     font-size: 45px;
     font-weight: 400;
     line-height: 66px;
-    font-family: var(--ff-primary);
     color: var(--c-black-700);
   }
   .custom-button{
     background-color: var(--c-primary);
     color: var(--c-white-900);
     padding: 0 65px;
-    font-family: var(--ff-secondary);
     font-weight: 700;
     font-size: 12px;
     text-align: center;
@@ -38,6 +35,31 @@
     color: var(--c-primary);
   }
   /*-------custom-heading-end----------*/
+
+  /*----------about-start------------*/
+  .about-us .about-image-wrap.d-flex.align-items-center {
+    gap: 0 20px;
+  }
+  .about-us .about-img img {
+    width: 100%;
+  }
+  .about-us .about-content-wrap {
+    padding-left: 44px;
+    padding-bottom: 15px;
+  }
+  .about-us .about-custom-button {
+    margin-top: 35px;
+  }
+  .about-us .custom-heading {
+    margin-bottom: 15px;
+  }
+  .about-us .about-content-wrap .custom-paragraph p:nth-child(2) {
+    padding: 15px 0;
+  }
+  .about-us .custom-paragraph p {
+    color: var(--c-grey-800);
+  }
+  /*----------about-end------------*/
 
 
 /*----------Responsive-Start------------*/
