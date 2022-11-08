@@ -14,7 +14,9 @@
   --c-black-700: #292929;
   --c-grey-800: #616161;
 
-  --ff-primary: 'Montserrat', sans-serif;
+  --ff-primary: 'Prata', serif;
+  --ff-secondary: 'DM Sans', sans-serif;
+
 }
 
 /******** CSS Resets ********/
@@ -47,23 +49,28 @@ a:hover {
 }
 
 p {
+  color: var(--c-black-800);
+  font-family: var(--ff-secondary);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
   margin: 0;
   padding: 0;
-  font-size: 14px;
-  color: var(--c-black-text);
-  line-height: 18px;
-  font-weight: 400;
 }
 
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-size: 14px;
-  color: var(--c-black-text);
+  color: var(--c-black-800);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-primary);
   margin-bottom: 0;
+}
+
+h4, h5, h6 {
+  font-family: var(--ff-secondary);
 }
 
 /******** Utility Classes ********/
