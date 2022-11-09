@@ -28,6 +28,9 @@
   .about-us .about-img {
     position: relative;
   }
+  .about-image-wrap.d-flex.align-items-center {
+    gap: 0 15px;
+  }
   .about-us .about-image-small {
     position: absolute;
     left: -100px;
@@ -52,17 +55,20 @@
     margin-top: 35px;
   }
   .the-best .the-best-content-wrap {
-    padding-right: 103px;
+    padding-right: 50px;
   }
   .best-img{
     position: relative;
   }
+  .best-img img{
+    width: 100%;
+  }
   .the-best .best-img-video img {
     position: absolute;
-    right: 32px;
+    right: 0px;
     bottom: 0;
+    width: auto;
   }
-
   /*---------the-best-end--------*/
   /*---------cta-start-----------*/
   .cta{
