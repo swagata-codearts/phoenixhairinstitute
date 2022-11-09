@@ -134,6 +134,9 @@
 }
 
 /* CONTACT SECTION */
+.custom-contact {
+  overflow: hidden;
+}
 .contact-top {
   background-size: cover;
   background-repeat: no-repeat;
@@ -166,10 +169,15 @@
 
 .contact-bottom {
   background-color: #e8ebed;
+  max-height: 685px;
   position: relative;
 }
 .contact-bottom_form {
   background-color: var(--c-white-900);
+  position: relative;
+  top: -38%;
+  width: 509px;
+  margin-left: 0;
 }
 .contact-bottom_form-title {
   background-color: var(--c-primary);
@@ -186,6 +194,7 @@
 
 .contact-bottom_form-main {
   padding: 37px 40px 50px;
+  box-shadow: 0px 100px 100px 0px rgba(205, 205, 205, 0.75)
 }
 .contact-bottom_form-main p {
   text-align: center;
@@ -229,6 +238,7 @@
 
 .contact-bottom_list {
   margin-left: 44px;
+  margin-top: 80px;
 }
 .contact-bottom_list li {
   font-size: 18px;
@@ -352,16 +362,38 @@
 	
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
-	
+@media (min-width: 1300px) and (max-width: 1400px){
+	/* fdev-sb */
+  .header-nav .navbar-nav {gap: 0 60px;}
+  /* fdev-sb */
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+  /* fdev-sb */  
+  .header-nav .navbar-nav {gap: 0 48px;}
+  /* fdev-sb */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+  /* custom props */
+  .custom-button {padding: 0 37px;height: 46px;}
+  /* custom props */
+
+  /* fdev-sb */
+  .header-top_left .logo {height: 45px;}
+  .header-nav {padding: 15px 0;}
+  .header-nav .navbar-nav {gap: 0 30px;}
+  /* fdev-sb */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+  /* custom props */
+	.custom-button {padding: 0 35px;height: 44px;}
+  /* custom props */
+  /* fdev-sb */
+  .header-top_left .logo {height: 43px;}
+  .header-nav {padding: 15px 0;}
+  .header-nav .navbar-nav {gap: 0 30px;}
+  /* fdev-sb */
 }
 
 @media only screen and (max-width: 991.98px) {    
