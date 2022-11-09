@@ -1,40 +1,5 @@
 
-/*-------custom-heading-start----------*/
-.sub-heading {
-    font-size: 14px;
-    color: var(--c-primary);
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 56px;
-    word-spacing: 2px;
-    font-family: var(--ff-secondary);
-    margin-bottom: 10px;
-  }
-.heading {
-    font-size: 45px;
-    font-weight: 400;
-    line-height: 66px;
-    color: var(--c-black-700);
-  }
-  .custom-button{
-    background-color: var(--c-primary);
-    color: var(--c-white-900);
-    padding: 0 67px;
-    font-weight: 700;
-    font-size: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    display: inline-flex;
-    border: 2px solid var(--c-primary);
-    transition: all 0.3s ease-in-out;
-    height: 52px;
-    align-items: center;
-  }
-.custom-button:hover{
-    background-color: var(--c-white-900);
-    color: var(--c-primary);
-  }
-  /*-------custom-heading-end----------*/
+
 
   /*----------about-start------------*/
   .about-us .about-image-wrap.d-flex.align-items-center {
@@ -105,21 +70,21 @@
     background-size: cover;
     text-align: center;
   }
-  .cta .cta-custom-button {
+  .cta .custom-button-alt {
     margin-top: 35px;
   }
-  .cta .sub-heading{
+  .sub-heading-wht{
     color: var(--c-white-800);
   }
-  .cta .heading{
+  .heading-wht{
     color: var(--c-white-800);
   }
-  .cta .custom-button{
+  .custom-button-alt{
     background-color: var(--c-white-800);
     color: var(--c-primary);
     border: 2px solid var(--c-white-800);
   }
-  .cta .custom-button:hover{
+  .custom-button-alt:hover{
     background-color: var(--c-primary);
     color: var(--c-white-800);
     border: 2px solid var(--c-primary);
