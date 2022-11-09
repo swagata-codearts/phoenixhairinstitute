@@ -161,6 +161,9 @@
   .specialties .specialties-paragraph {
     padding: 0 42px;
   }
+    .specialties-content-wrap {
+      border-right: 2px solid var(--c-white-700);
+    }
   /*----------specialties-end-----------*/
 
 
