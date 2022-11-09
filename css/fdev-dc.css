@@ -118,7 +118,7 @@
     background-color: var(--c-white-800);
   }
   .specialties .custom-heading {
-    margin-bottom: 15px;
+    margin-bottom: 35px;
   }
   .specialties .specialties-img-wrap .special-img {
     display: inline-flex;
@@ -139,7 +139,7 @@
     color: var(--c-grey-800);
     font-size: 15px;
     line-height: 31px;
-    padding: 40px 0;
+    padding: 20px 0 30px 0;
   }
   .specialties .specialties-custom-button {
     font-size: 14px;
@@ -159,10 +159,13 @@
     padding: 0 82px;
   }
   .specialties .specialties-paragraph {
-    padding: 0 42px;
+    padding: 0 38px;
   }
-    .specialties-content-wrap {
+  .specialties .specialties-content-wrap {
       border-right: 2px solid var(--c-white-700);
+    }
+  .specialties [class*="col-"]:last-child .specialties-content-wrap {
+      border: none;
     }
   /*----------specialties-end-----------*/
 
