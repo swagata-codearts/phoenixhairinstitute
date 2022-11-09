@@ -1,6 +1,3 @@
-
-
-
   /*----------about-start------------*/
   .about-us .about-image-wrap.d-flex.align-items-center {
     gap: 0 20px;
@@ -9,8 +6,7 @@
     width: 100%;
   }
   .about-us .about-content-wrap {
-    padding-left: 44px;
-    padding-bottom: 8px;
+    padding-left: 82px;
   }
   .about-us .about-custom-button {
     margin-top: 35px;
@@ -56,11 +52,17 @@
     margin-top: 35px;
   }
   .the-best .the-best-content-wrap {
-    padding-right: 22px;
+    padding-right: 103px;
   }
-  .the-best .the-best-image-wrap {
-    padding-left: 30px;
+  .best-img{
+    position: relative;
   }
+  .the-best .best-img-video img {
+    position: absolute;
+    right: 32px;
+    bottom: 0;
+  }
+
   /*---------the-best-end--------*/
   /*---------cta-start-----------*/
   .cta{
