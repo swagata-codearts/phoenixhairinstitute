@@ -105,6 +105,9 @@
     background-size: cover;
     text-align: center;
   }
+  .cta .cta-custom-button {
+    margin-top: 35px;
+  }
    /*---------cta-end-----------*/
 
 
