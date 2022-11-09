@@ -1,7 +1,7 @@
   /*----------about-start------------*/
-  .about-us .about-image-wrap.d-flex.align-items-center {
+  /*.about-us .about-image-wrap.d-flex.align-items-center {
     gap: 0 20px;
-  }
+  }*/
   .about-us .about-img img {
     width: 100%;
   }
@@ -92,6 +92,20 @@
     border: 2px solid var(--c-primary);
   }
    /*---------cta-end-----------*/
+  /*----------gallery-start--------*/
+  .gallery {
+    text-align: center;
+  }
+  .gallery .gallery-custom-img img {
+    width: 100%;
+  }
+  .gallery .custom-heading {
+    margin-bottom: 60px;
+  }
+  .gallery .gallery-custom-button {
+    margin-top: 60px;
+  }
+  /*----------gallery-end--------*/
 
 
 /*----------Responsive-Start------------*/
