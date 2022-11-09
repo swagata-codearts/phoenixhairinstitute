@@ -94,9 +94,37 @@
     padding-right: 22px;
   }
   .the-best .the-best-image-wrap {
-    padding-left: 22px;
+    padding-left: 30px;
   }
   /*---------the-best-end--------*/
+  /*---------cta-start-----------*/
+  .cta{
+    background-image: url(../images/professional-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .cta .cta-custom-button {
+    margin-top: 35px;
+  }
+  .cta .sub-heading{
+    color: var(--c-white-800);
+  }
+  .cta .heading{
+    color: var(--c-white-800);
+  }
+  .cta .custom-button{
+    background-color: var(--c-white-800);
+    color: var(--c-primary);
+    border: 2px solid var(--c-white-800);
+  }
+  .cta .custom-button:hover{
+    background-color: var(--c-primary);
+    color: var(--c-white-800);
+    border: 2px solid var(--c-primary);
+  }
+   /*---------cta-end-----------*/
 
 
 /*----------Responsive-Start------------*/
