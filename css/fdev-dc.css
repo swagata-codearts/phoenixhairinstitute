@@ -28,6 +28,9 @@
   .about-us .about-img {
     position: relative;
   }
+  .about-image-wrap.d-flex.align-items-center {
+    gap: 0 15px;
+  }
   .about-us .about-image-small {
     position: absolute;
     left: -100px;
@@ -52,17 +55,20 @@
     margin-top: 35px;
   }
   .the-best .the-best-content-wrap {
-    padding-right: 103px;
+    padding-right: 50px;
   }
   .best-img{
     position: relative;
   }
+  .best-img img{
+    width: 100%;
+  }
   .the-best .best-img-video img {
     position: absolute;
-    right: 32px;
+    right: 0px;
     bottom: 0;
+    width: auto;
   }
-
   /*---------the-best-end--------*/
   /*---------cta-start-----------*/
   .cta{
@@ -106,6 +112,65 @@
     margin-top: 60px;
   }
   /*----------gallery-end--------*/
+  /*----------specialties-start-----------*/
+  .specialties {
+    text-align: center;
+    background-color: var(--c-white-800);
+  }
+  .specialties .custom-heading {
+    margin-bottom: 60px;
+  }
+  .specialties .specialties-img-wrap .special-img {
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--c-white-900);
+    padding: 40px;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+  }
+  .specialties .specialties-heading h4{
+    font-size: 21px;
+    line-height: 35px;
+    font-family: var(--ff-primary);
+    color: var(--c-black-700);
+  }
+  .specialties .specialties-paragraph p {
+    color: var(--c-grey-800);
+    font-size: 15px;
+    line-height: 31px;
+    padding: 20px 0 30px 0;
+  }
+  .specialties .specialties-custom-button {
+    font-size: 14px;
+    color: var(--c-primary);
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .specialties .specialties-img-wrap {
+    padding-bottom: 40px;
+  }
+  .specialties .specialties-button span {
+    padding-left: 10px;
+    color: var;
+  }
+  .specialties .specialties-heading {
+    padding: 0 82px;
+  }
+  .specialties .specialties-paragraph {
+    padding: 0 38px;
+  }
+  .specialties .specialties-content-wrap {
+      border-right: 2px solid var(--c-white-700);
+    }
+  .specialties [class*="col-"]:last-child .specialties-content-wrap {
+      border: none;
+    }
+    .specialties .specialties-paragraph.sll {
+      padding: 0 42px;
+    }
+  /*----------specialties-end-----------*/
 
 
 /*----------Responsive-Start------------*/
