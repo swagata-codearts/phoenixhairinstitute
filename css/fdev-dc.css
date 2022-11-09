@@ -112,6 +112,44 @@
     margin-top: 60px;
   }
   /*----------gallery-end--------*/
+  /*----------specialties-start-----------*/
+  .specialties {
+    text-align: center;
+    background-color: var(--c-white-800);
+  }
+  .specialties .custom-heading {
+    margin-bottom: 15px;
+  }
+  .specialties .specialties-img-wrap .special-img {
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--c-white-900);
+    padding: 40px 50px;
+    border-radius: 50%;
+  }
+  .specialties .specialties-heading h4{
+    font-size: 21px;
+    line-height: 35px;
+    font-family: var(--ff-primary);
+    color: var(--c-black-700);
+  }
+  .specialties .specialties-paragraph p {
+    color: var(--c-grey-800);
+    font-size: 15px;
+    line-height: 31px;
+    padding: 40px 0;
+  }
+  .specialties .specialties-custom-button {
+    font-size: 14px;
+    color: var(--c-blue-alt);
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .specialties .specialties-img-wrap {
+    padding-bottom: 40px;
+  }
+  /*----------specialties-end-----------*/
 
 
 /*----------Responsive-Start------------*/
