@@ -15,16 +15,26 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
-	
+/* custom props */
+.custom-pad {padding: 80px 0;}
+.custom-button {padding: 0 37px;height: 46px;}
+/* custom props */
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
-	
+/* custom props */
+.custom-pad {padding: 70px 0;}
+.custom-button {padding: 0 35px;height: 44px;}
+/* custom props */
 }
 
-@media only screen and (max-width: 991.98px) {    
+@media only screen and (max-width: 991.98px) {   
+/* custom props */
+.custom-pad {padding: 60px 0;}
+.custom-button {padding: 0 25px;height: 40px;} 
+/* custom props */ 
 .navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
-.navbar-toggler .icon-bar { width: 24px; background: #fff;transition: .5s ease;}
+.navbar-toggler .icon-bar { width: 24px;transition: .5s ease;}
 .navbar-toggler.collapsed .icon-bar:nth-child(2){transform: rotate(0) translateY(0) translateX(0);}
 .navbar-toggler.collapsed .icon-bar:nth-child(3){opacity:1}
 .navbar-toggler.collapsed .icon-bar:nth-child(4){transform:rotate(0) translateY(0) translateX(0);}

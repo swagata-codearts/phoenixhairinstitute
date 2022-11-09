@@ -96,17 +96,6 @@ h4, h5, h6 {
   background-color: #fff;
 }
 
-.navbar-toggler .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-
-.navbar-default .navbar-toggler .icon-bar {
-  background-color: #fff;
-}
-
 .navbar-default .navbar-toggler {
   border-color: #5f4b8b;
   background: #5f4b8b;
@@ -131,6 +120,7 @@ h4, h5, h6 {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  background: var(--c-primary);
 }
 
 .navbar-toggler .icon-bar + .icon-bar {
@@ -144,7 +134,9 @@ h4, h5, h6 {
 .navbar-header {
   display: none;
 }
-
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
 /*-------custom-heading-button-start----------*/
 .sub-heading {
