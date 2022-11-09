@@ -124,8 +124,10 @@
     display: inline-flex;
     justify-content: center;
     background-color: var(--c-white-900);
-    padding: 40px 50px;
+    padding: 40px;
     border-radius: 50%;
+    height: 140px;
+    width: 140px;
   }
   .specialties .specialties-heading h4{
     font-size: 21px;
@@ -141,13 +143,23 @@
   }
   .specialties .specialties-custom-button {
     font-size: 14px;
-    color: var(--c-blue-alt);
+    color: var(--c-primary);
     font-family: var(--ff-primary);
     font-weight: 400;
     text-transform: capitalize;
   }
   .specialties .specialties-img-wrap {
     padding-bottom: 40px;
+  }
+  .specialties .specialties-button span {
+    padding-left: 10px;
+    color: var;
+  }
+  .specialties .specialties-heading {
+    padding: 0 82px;
+  }
+  .specialties .specialties-paragraph {
+    padding: 0 42px;
   }
   /*----------specialties-end-----------*/
 
