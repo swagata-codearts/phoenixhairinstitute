@@ -118,7 +118,7 @@
     background-color: var(--c-white-800);
   }
   .specialties .custom-heading {
-    margin-bottom: 35px;
+    margin-bottom: 60px;
   }
   .specialties .specialties-img-wrap .special-img {
     display: inline-flex;
@@ -166,6 +166,9 @@
     }
   .specialties [class*="col-"]:last-child .specialties-content-wrap {
       border: none;
+    }
+    .specialties .specialties-paragraph.sll {
+      padding: 0 42px;
     }
   /*----------specialties-end-----------*/
 
