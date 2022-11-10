@@ -37,7 +37,8 @@
 .custom-pad {padding: 60px 0;}
 .custom-button {padding: 0 25px;height: 40px;}
 .custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
-.custom-heading .heading {font-size: 35px;} 
+.custom-heading .heading {font-size: 35px;line-height: 50px;}
+.custom-heading .sub-heading{margin-bottom: 0;} 
 /* custom props */ 
 .navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
 .navbar-toggler .icon-bar { width: 24px;transition: .5s ease;}
