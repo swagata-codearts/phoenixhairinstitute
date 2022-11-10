@@ -18,6 +18,8 @@
 /* custom props */
 .custom-pad {padding: 80px 0;}
 .custom-button {padding: 0 37px;height: 46px;}
+.custom-heading .heading {font-size: 40px;}
+.custom-paragraph p:not(:last-child) {padding-bottom: 15px;}
 /* custom props */
 }
 
@@ -25,13 +27,17 @@
 /* custom props */
 .custom-pad {padding: 70px 0;}
 .custom-button {padding: 0 35px;height: 44px;}
+.custom-heading .heading {font-size: 40px;}
+.custom-paragraph p:not(:last-child) {padding-bottom: 15px;}
 /* custom props */
 }
 
 @media only screen and (max-width: 991.98px) {   
 /* custom props */
 .custom-pad {padding: 60px 0;}
-.custom-button {padding: 0 25px;height: 40px;} 
+.custom-button {padding: 0 25px;height: 40px;}
+.custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
+.custom-heading .heading {font-size: 35px;} 
 /* custom props */ 
 .navbar-toggler { float: left;margin: 0; height: 45px; width: 45px; border-radius: 0;z-index: 1}
 .navbar-toggler .icon-bar { width: 24px;transition: .5s ease;}
@@ -48,12 +54,16 @@
 @media (max-width: 767.98px){
 /* custom props */ 
 .custom-button {padding: 0 20px;height: 36px;font-size: 11px;}
+.custom-heading .heading {font-size: 30px;}
 /* custom props */ 
 }
 
 @media (max-width: 575.98px){
 /* custom props */ 
 .custom-button {height: 34px;}
+ p{font-size: 15px;line-height: 25px;}
+ .custom-heading .heading {font-size: 25px;line-height: 40px;}
+ .custom-paragraph p:not(:last-child) {padding-bottom: 0;}
 /* custom props */ 
     
 }

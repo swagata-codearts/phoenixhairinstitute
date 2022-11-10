@@ -2,7 +2,10 @@
   /*.about-us .about-image-wrap.d-flex.align-items-center {
     gap: 0 20px;
   }*/
-
+  .about-us .about-content-wrap .heading {
+    width: 62%;
+    margin-left: 0;
+  }
   .about-us .about-img img {
     width: 100%;
   }
@@ -73,6 +76,9 @@
 
    /*---------cta-end-----------*/
   /*----------gallery-start--------*/
+  .gallery .gallery-content-wrap .heading {
+    width: 62%;
+  }
   .gallery {
     text-align: center;
   }
@@ -168,29 +174,78 @@
 	
 }
 
-@media (min-width: 1200px) and (max-width: 1600px){
+@media (min-width: 1366px) and (max-width: 1600px){
+  /*-------about-start---------*/
+  .about-us .about-content-wrap .heading {
+    width: 70%;
+  }
+  .about-image-wrap.d-flex.align-items-center {
+    padding-left: 70px;
+    padding-top: 120px;
+  }
+  .about-us .about-content-wrap {
+    padding-left: 30px;
+  }
+  /*-------about-end---------*/
 	
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+    /*-------about-start---------*/
+    .about-us .about-content-wrap .heading {width: 85%;}
+    .about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 130px;}
+    .about-us .about-content-wrap {padding-left: 30px;}
+    .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
+    /*-------about-end---------*/
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
+      /*-------about-start---------*/
+      .about-us .about-content-wrap .heading {width: 100%;}
+      .about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 200px;}
+      .about-us .about-content-wrap {padding-left: 30px;}
+      .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
+      /*-------about-end---------*/
 	
 }
 
 @media (min-width: 992px) and (max-width: 1024px) {
+        /*-------about-start---------*/
+        .about-us .about-content-wrap .heading {
+          width: 100%;
+        }
+        .about-image-wrap.d-flex.align-items-center {
+          padding-left: 70px;
+          padding-top: 200px;
+        }
+        .about-us .about-content-wrap {
+          padding-left: 30px;
+        }
+        .about-us .about-image-small {
+          position: absolute;
+          left: -90px;
+          top: 150px;
+        }
+        /*-------about-end---------*/
 	
 }
 
-@media only screen and (max-width: 991.98px) {    
+@media only screen and (max-width: 991.98px) {
+  .about-us .about-image-small{left: -27px;}
+  .about-us {text-align: center;}
+  .about-us .about-content-wrap {padding-left: 0;}
+  .about-us .about-content-wrap .heading {width: 100%;}
+  .about-us .custom-heading {margin-bottom: 10px;}
+  .about-us .custom-heading .sub-heading{margin-bottom: 0;margin-top: 20px;}   
 
 }
 
 
 @media (max-width: 767.98px){
-    
+  .about-us .custom-heading {margin-bottom: 0;}
 }
 
 @media (max-width: 575.98px){
-    
+  .about-us .about-image-small {left: -14px;top: 119px;}
 }
 
 @media only screen and (max-width: 480.98px) {	
