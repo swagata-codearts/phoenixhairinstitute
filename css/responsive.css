@@ -2,16 +2,19 @@
 /* CSS Document */
 
 
-@media (min-width: 1920px) and (max-width: 2500px){
-	
-}
+@media (min-width: 1920px) and (max-width: 2500px){}
 
-@media (min-width: 1600px) and (max-width: 1920px){
-	
-}
+@media (min-width: 1600px) and (max-width: 1920px){}
 
-@media (min-width: 1200px) and (max-width: 1600px){
-	
+@media (min-width: 1300px) and (max-width: 1400px){
+/* custom props */
+.custom-pad {padding: 100px 0;}
+/* custom props */
+}
+@media (min-width: 1200px) and (max-width: 1300px){
+/* custom props */
+.custom-pad {padding: 90px 0;}
+/* custom props */
 }
 
 @media (min-width: 1024px) and (max-width: 1200px){
@@ -46,19 +49,21 @@
 
 
 @media (max-width: 767.98px){
-/* custom props */ 
+/* custom props */
+.custom-pad {padding: 50px 0;} 
 .custom-button {padding: 0 20px;height: 36px;font-size: 11px;}
 /* custom props */ 
 }
 
 @media (max-width: 575.98px){
 /* custom props */ 
+.custom-pad {padding: 40px 0;}
 .custom-button {height: 34px;}
-/* custom props */ 
+/* custom props */
     
 }
 
 @media only screen and (max-width: 480.98px) {	
-    
+   
 }
 
