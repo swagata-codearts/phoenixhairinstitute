@@ -46,10 +46,15 @@
 
 
 @media (max-width: 767.98px){
-    
+/* custom props */ 
+.custom-button {padding: 0 20px;height: 36px;font-size: 11px;}
+/* custom props */ 
 }
 
 @media (max-width: 575.98px){
+/* custom props */ 
+.custom-button {height: 34px;}
+/* custom props */ 
     
 }
 
