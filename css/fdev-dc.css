@@ -6,7 +6,7 @@
     width: 100%;
   }
   .about-us .about-content-wrap {
-    padding-left: 82px;
+    padding-left: 62px;
   }
   .about-us .about-custom-button {
     margin-top: 35px;
@@ -40,22 +40,23 @@
   /*----------about-end------------*/
   /*---------the-best-start--------*/
   .the-best .the-best-content-wrap .custom-paragraph p:nth-child(2) {
-    padding: 15px 0;
+    padding: 20px 0;
   }
   .the-best .the-best-content-wrap .custom-paragraph p:nth-child(3) {
-    padding: 0 0 15px 0;
+    padding: 0 0 20px 0;
   }
   .the-best .custom-paragraph p {
     color: var(--c-grey-800);
   }
   .the-best .custom-heading {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   .the-best .the-best-custom-button {
     margin-top: 35px;
   }
   .the-best .the-best-content-wrap {
     padding-right: 50px;
+    padding-top: 25px;
   }
   .best-img{
     position: relative;
@@ -82,19 +83,19 @@
     margin-top: 35px;
   }
   .sub-heading-wht{
-    color: var(--c-white-800);
+    color: var(--c-white-900);
   }
   .heading-wht{
-    color: var(--c-white-800);
+    color: var(--c-white-900);
   }
   .custom-button-alt{
-    background-color: var(--c-white-800);
+    background-color: var(--c-white-900);
     color: var(--c-primary);
-    border: 2px solid var(--c-white-800);
+    border: 2px solid var(--c-white-900);
   }
   .custom-button-alt:hover{
     background-color: var(--c-primary);
-    color: var(--c-white-800);
+    color: var(--c-white-900);
     border: 2px solid var(--c-primary);
   }
    /*---------cta-end-----------*/
@@ -160,15 +161,27 @@
   }
   .specialties .specialties-paragraph {
     padding: 0 38px;
+    min-height: 174px;
   }
   .specialties .specialties-content-wrap {
-      border-right: 2px solid var(--c-white-700);
+    position: relative;
+    min-height: 446px;
+    }
+  .specialties .specialties-content-wrap::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -10px;;
+      height: 95%;
+      width: 1px;
+      background-color: var(--c-white-700);
     }
   .specialties [class*="col-"]:last-child .specialties-content-wrap {
       border: none;
     }
     .specialties .specialties-paragraph.sll {
-      padding: 0 42px;
+      padding: 0 43px;
+      min-height: 174px;
     }
   /*----------specialties-end-----------*/
 
