@@ -359,6 +359,197 @@
   color: var(--c-grey-800);
 }
 
+/* INNER BANNER SECTION */
+.inner-banner_content {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 9;
+}
+.inner-banner_content::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 121, 174, 0.55);
+  z-index: -1;
+}
+.inner-banner_title h1 {
+  color: var(--c-white-900);
+  font-size: 60px;
+  text-transform: capitalize;
+}
+.inner-banner_breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #ebe8e2;
+}
+.inner-banner_breadcrumb .breadcrumb {
+  background-color: #fff;
+  padding: 20px 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.inner-banner_breadcrumb .breadcrumb > li {
+  display: inline-block;
+  margin: 0;
+}
+.inner-banner_breadcrumb .breadcrumb > li a {
+  color: var(--c-primary);
+}
+.inner-banner_breadcrumb .breadcrumb > li + li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  padding: 0 5px;
+  color: var(--c-grey-800);
+  content: "\f101";
+}
+.page-breadcrumb {
+  background-color: #fff;
+  border-bottom: 1px solid #ebe8e2;
+}
+/* inner-page-start */
+
+/* HAIR TRANSPLANTS SECTION */
+.quotes {
+  margin: 30px 0;
+}
+.quotes blockquote {
+  margin-bottom: 0;
+  background-color: var(--c-white-800);
+  color: var(--c-blue-600);
+  font-size: 19px;
+  padding: 40px 5%;
+  line-height: 32px;
+  position: relative;
+  text-align: center;
+}
+.quotes blockquote::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgba(98, 92, 144, 0.09);
+  content: "\f10d";
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 60px;
+}
+.quotes blockquote::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: rgba(98, 92, 144, 0.09);
+  content: "\f10e";
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  font-size: 60px;
+}
+.hair-transplants_media {
+  position: relative;
+}
+.hair-transplants_media .media-play {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  display: inline-flex;
+  width: 70px;
+  height: 70px;
+  font-size: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-white-700);
+  color: var(--c-primary);
+  border-radius: 50%;
+}
+.hair-transplants_media img {
+  width: 100%;
+}
+
+.inner-heading .s-heading {
+  font-size: 36px;
+  line-height: 42px;
+}
+.custom-paragraph p span {
+  color: var(--c-primary);
+  font-weight: 700;
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.custom-paragraph ul {
+  /* background-color: #fafafa; */
+  font-size: 17px;
+  line-height: 26px;
+  /* padding: 20px; */
+  color: var(--c-grey-800);
+}
+.custom-paragraph ul li {
+  position: relative;
+  padding-left: 25px;
+}
+.custom-paragraph ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.custom-paragraph ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--c-grey-800);
+  content: "\f058";
+  position: absolute;
+  top: 45%;
+  transform: translateY(-50%);
+  left: 0px;
+  font-size: 16px;
+}
+
+/* BUSINESS OPPORTUNITIES */
+.business-opportunities .hair-transplants_media img {
+  max-height: 350px;
+  object-fit: cover;
+  object-position: top;
+}
+.consultaion-request{
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.consultaion-request .contact-bottom_form {
+  width: 100%;
+  top: unset;
+  background-color: rgba(0, 0, 0, 0.58);
+  box-shadow: 5px 5px 5px rgba(0 0 0 /0.5);
+  border: 1px solid #000;
+}
+.consultaion-request .contact-bottom_form-main {box-shadow: none;}
+.consultaion-request  .contact-bottom_form-main form .form-label {
+  color: var(--c-white-900);}
+  .consultaion-request .contact-bottom_form-main form .form-control, .consultaion-request .contact-bottom_form-main form .form-select {
+    color: var(--c-white-900);
+    background-color: transparent;}
+    .consultaion-request textarea.form-control {
+      min-height: 180px;
+    }
+    .consultaion-request .contact-bottom_form-main form .custom-button:hover {
+      background-color: var(--c-white-900);
+      color: var(--c-primary);
+      border-color: var(--c-white-900);
+    }
+    .inner-map iframe {
+      width: 100%;
+    }
+
+
 @media (min-width: 1920px) and (max-width: 2500px){}
 
 @media (min-width: 1600px) and (max-width: 1920px){}
@@ -375,6 +566,9 @@
 .contact-bottom_list {margin-left: 0;}
 
 .footer_col-content p {padding-right: 20px;}
+
+.inner-banner_content {height: 330px;}
+.inner-banner_title h1 {font-size: 50px;}
 /* fdev-sb */
 }
 
@@ -391,6 +585,9 @@
 .contact-bottom_list {margin-left: 38px;}
 
 .footer_col-content p {padding-right: 20px;}
+
+.inner-banner_content {height: 320px;}
+.inner-banner_title h1 {font-size: 42px;}
 /* fdev-sb */
 }
 
@@ -420,6 +617,9 @@
 .footer_col-socials {gap: 0 23px;}
 .footer-copy {padding: 14px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
+
+.inner-banner_content {height: 320px;}
+.inner-banner_title h1 {font-size: 40px;}
 /* fdev-sb */
 }
 
@@ -463,6 +663,9 @@
 .footer_col-socials {gap: 0 20px;}
 .footer-copy {padding: 12px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
+
+.inner-banner_content {height: 310px;}
+.inner-banner_title h1 {font-size: 38px;}
 /* fdev-sb */
 }
 
@@ -514,6 +717,12 @@
 .footer_col-socials {gap: 0 20px;}
 .footer-copy {padding: 10px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
+
+
+.custom-inner-banner {margin-top: 145.8px;}
+.inner-banner_content {height: 300px;}
+.inner-banner_title h1 {font-size: 36px;}
+.inner-banner_breadcrumb .breadcrumb {padding: 15px 0px;font-size: 13px;}
 /* fdev-sb */
 }
 
@@ -555,6 +764,11 @@
 .footer_col-location .footer_link {padding-left: 0;}
 .footer_col-location .footer_link span {position: relative;top: 0;}
 .footer_col-location .footer_link .text {font-size: 15px;line-height: 23px;width: 70%;margin: 0 auto;}
+
+.custom-inner-banner {margin-top: 95.8px;}
+.inner-banner_content {height: 230px;}
+.inner-banner_title h1 {font-size: 30px;text-align: center;}
+.inner-banner_breadcrumb .breadcrumb {padding: 13px 0px;font-size: 12px;justify-content: center;}
 /* fdev-sb */
 }
 
@@ -588,6 +802,10 @@
 .footer_col-logo img {height: 36px;}
 .footer-copy {padding: 15px 0;}
 .footer-copy .footer_copyright p {font-size: 13px;line-height: 20px;}
+
+.inner-banner_content {height: 210px;}
+.inner-banner_title h1 {font-size: 28px;}
+.inner-banner_breadcrumb .breadcrumb {padding: 11px 0px;font-size: 11px;letter-spacing: 1px;}
 /* fdev-sb */
 }
 
