@@ -258,6 +258,7 @@
   .specialties [class*="col-"]:nth-child(2) .specialties-content-wrap::after {
     display: none;
   }
+  .specialties .custom-heading {margin-bottom: 30px;}
   /*-------specialties-end---------*/
   /*---------the-best-start----------*/
   .the-best {text-align: center;}
