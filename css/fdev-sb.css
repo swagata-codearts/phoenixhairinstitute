@@ -417,6 +417,7 @@
 .footer_col-title .title {font-size: 18px;}
 .footer_col-content .footer_link {font-size: 15px;line-height: 30px;}
 .footer_col-location .footer_link .text {font-size: 14px;line-height: 24px;}
+.footer_col-socials {gap: 0 23px;}
 .footer-copy {padding: 14px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
 /* fdev-sb */
@@ -459,6 +460,7 @@
 .footer_col-title .title {font-size: 18px;}
 .footer_col-content .footer_link {font-size: 15px;line-height: 30px;}
 .footer_col-location .footer_link .text {font-size: 14px;line-height: 24px;}
+.footer_col-socials {gap: 0 20px;}
 .footer-copy {padding: 12px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
 /* fdev-sb */
@@ -509,6 +511,7 @@
 .footer_col-logo img {height: 45px;}
 .footer_col-content p {margin-top: 20px;line-height: 26px;font-size: 16px;padding: 0;}
 .footer_col-content .footer_link {font-size: 16px;line-height: 32px;}
+.footer_col-socials {gap: 0 20px;}
 .footer-copy {padding: 10px 0;}
 .footer-copy .footer_copyright p {font-size: 14px;}
 /* fdev-sb */
