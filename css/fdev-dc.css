@@ -2,6 +2,12 @@
   /*.about-us .about-image-wrap.d-flex.align-items-center {
     gap: 0 20px;
   }*/
+  .custom-paragraph p:not(:last-child) {
+    padding-bottom: 20px;
+  }
+  .custom-paragraph p {
+    color: var(--c-grey-800);
+  }
   .about-us .about-img img {
     width: 100%;
   }
@@ -14,12 +20,7 @@
   .about-us .custom-heading {
     margin-bottom: 15px;
   }
-  .about-us .about-content-wrap .custom-paragraph p:nth-child(2) {
-    padding: 15px 0;
-  }
-  .about-us .custom-paragraph p {
-    color: var(--c-grey-800);
-  }
+
   .about-us {
     background-image: url(../images/about-bg.webp);
     background-repeat: no-repeat;
@@ -39,15 +40,7 @@
   }
   /*----------about-end------------*/
   /*---------the-best-start--------*/
-  .the-best .the-best-content-wrap .custom-paragraph p:nth-child(2) {
-    padding: 20px 0;
-  }
-  .the-best .the-best-content-wrap .custom-paragraph p:nth-child(3) {
-    padding: 0 0 20px 0;
-  }
-  .the-best .custom-paragraph p {
-    color: var(--c-grey-800);
-  }
+
   .the-best .custom-heading {
     margin-bottom: 20px;
   }
@@ -176,8 +169,8 @@
       width: 1px;
       background-color: var(--c-white-700);
     }
-  .specialties [class*="col-"]:last-child .specialties-content-wrap {
-      border: none;
+  .specialties [class*="col-"]:last-child .specialties-content-wrap::after {
+      display: none;
     }
     .specialties .specialties-paragraph.sll {
       padding: 0 43px;
