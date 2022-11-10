@@ -54,7 +54,7 @@
 @media (max-width: 767.98px){
 /* custom props */ 
 .custom-button {padding: 0 20px;height: 36px;font-size: 11px;}
-.custom-heading .heading {font-size: 30px;}
+.custom-heading .heading {font-size: 30px;line-height: 40px;}
 /* custom props */ 
 }
 
