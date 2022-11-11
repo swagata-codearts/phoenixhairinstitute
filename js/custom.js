@@ -18,7 +18,10 @@ jQuery('#custom-owl').owlCarousel({
 
 
 jQuery(document).ready(function () {
-    jQuery('.custom-imglist .col-lg-4:lt(6)').show();
+    jQuery('.custom-imglist').each(function()   {
+
+        jQuery(this).find('.col-lg-4:lt(6)').show();
+    })
     jQuery('.show-less').hide();
     var items =  9;
     var shown =  3;
