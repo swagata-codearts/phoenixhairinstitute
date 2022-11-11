@@ -598,6 +598,53 @@
 .inner-contact_location-alt {
   background-color: #fbfbfb;
 }
+.owl-nav.disabled {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.inner-contact_location-wrap .row > * {
+  margin: 0;
+}
+.inner-contact-us-form .contact-bottom_form {
+  border: 1px solid rgb(76, 103, 137);
+  box-shadow: 5px 5px 15px rgba(3, 13, 66, 0.57);
+  margin-top: 30px;
+  background-color: rgba(76, 103, 137, 0.78);
+}
+.inner-contact-us-form .contact-bottom {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 9;
+}
+.inner-contact-us-form .contact-bottom::before  {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(76, 103, 137, 0.58);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.inner-contact-us-form .contact-bottom_form-main form .form-control, .inner-contact-us-form .contact-bottom_form-main form .form-select {
+  background-color: transparent;
+  color: var(--c-white-900);
+}
+.inner-contact-us-form .contact-bottom_form-main form .form-select option {
+  background-color: transparent;
+  color: var(--c-blac-900);
+}
+.inner-contact-us-form .contact-bottom_form-main form .form-control::placeholder {
+  color: var(--c-white-700);
+  opacity: 1;
+}
+.inner-contact-us-form .contact-bottom_form-main form .form-label  {
+  color: var(--c-white-900);
+}
 .location_card {
   background-color: var(--c-white-800);
   padding: 20px 30px;
@@ -612,7 +659,7 @@ gap: 10px;
 align-items: center;
 justify-content: center;
 height: 240px;
-margin: 0 10px;
+margin: 18px 10px;
 }
 .location_card:hover {
   background-color: rgb(236, 239, 242);
@@ -740,6 +787,9 @@ align-items: center;
 
 @media (min-width: 1600px) and (max-width: 1920px){}
 
+@media (min-width: 1400px) and (max-width: 1500px){
+  .inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+}
 @media (min-width: 1300px) and (max-width: 1400px){
 /* fdev-sb */
 .header-nav .navbar-nav {gap: 0 60px;}
@@ -755,6 +805,9 @@ align-items: center;
 
 .inner-banner_content {height: 330px;}
 .inner-banner_title h1 {font-size: 50px;}
+
+.inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+.location_card  {margin: 15px 4px;}
 /* fdev-sb */
 }
 
@@ -774,6 +827,11 @@ align-items: center;
 
 .inner-banner_content {height: 320px;}
 .inner-banner_title h1 {font-size: 42px;}
+
+.inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+.location_card  {margin: 12px 0px;height: 260px;}
+
+
 /* fdev-sb */
 }
 
@@ -806,6 +864,9 @@ align-items: center;
 
 .inner-banner_content {height: 320px;}
 .inner-banner_title h1 {font-size: 40px;}
+
+.inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+.location_card  {margin: 12px 0px;height: 260px;}
 /* fdev-sb */
 }
 
@@ -852,6 +913,9 @@ align-items: center;
 
 .inner-banner_content {height: 310px;}
 .inner-banner_title h1 {font-size: 38px;}
+
+.inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+.location_card  {margin: 12px 0px;height: 260px;}
 /* fdev-sb */
 }
 
@@ -909,6 +973,12 @@ align-items: center;
 .inner-banner_content {height: 300px;}
 .inner-banner_title h1 {font-size: 36px;}
 .inner-banner_breadcrumb .breadcrumb {padding: 15px 0px;font-size: 13px;}
+
+.inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
+.location_card  {margin: 12px 0px;height: 280px;gap: 8px;}
+.location_card .telephone {font-size: 20px;}
+.quotes {margin: 20px 0 10px;}
+.quotes blockquote  {font-size: 18px;line-height: 30px;}
 /* fdev-sb */
 }
 
@@ -955,6 +1025,11 @@ align-items: center;
 .inner-banner_content {height: 230px;}
 .inner-banner_title h1 {font-size: 30px;text-align: center;}
 .inner-banner_breadcrumb .breadcrumb {padding: 13px 0px;font-size: 12px;justify-content: center;}
+.location_card  {height: unset;}
+.inner-contact_location .custom-heading, .hair-transplants .custom-heading {text-align: center;}
+.quotes {margin: 15px 0 5px;}
+.quotes blockquote  {font-size: 17px;padding: 30px 3%;}
+
 /* fdev-sb */
 }
 
@@ -992,6 +1067,9 @@ align-items: center;
 .inner-banner_content {height: 210px;}
 .inner-banner_title h1 {font-size: 28px;}
 .inner-banner_breadcrumb .breadcrumb {padding: 11px 0px;font-size: 11px;letter-spacing: 1px;}
+.quotes {margin: 15px 0 3px;}
+.quotes blockquote  {font-size: 16px;padding: 20px 3%;}
+
 /* fdev-sb */
 }
 
