@@ -15,3 +15,8 @@ jQuery('#custom-owl').owlCarousel({
         }
     }
 });
+
+jQuery(document).ready(function() {
+    jQuery(".client-gallery .custom-imglist [class*='col-']").slice(0, 3).show();
+})
+
