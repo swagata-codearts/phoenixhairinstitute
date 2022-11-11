@@ -193,7 +193,8 @@
     color: var(--c-black-700);
   }
   .client-gallery .custom-imglist [class*="col-"] {
-    padding: 10px 0;
+    padding: 12px 6px;
+    display: none;
   }
   .client-gallery .custom-imglist .work-sample-link img {
     width: 100%;
