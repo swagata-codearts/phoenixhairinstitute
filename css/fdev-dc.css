@@ -167,9 +167,15 @@
   .client-gallery {
     text-align: center;
   }
+  .client-gallery .custom-heading {
+    margin-bottom: 60px;
+  }
+  .client-gallery .client-gallery-custom-button {
+    margin-top: 55px;
+  }
   .client-gallery .custom-tab-button .nav-tabs {
     border: none;
-    padding-bottom: 75px;
+    padding-bottom: 60px;
     justify-content: center;
   }
   .client-gallery .custom-tab-button .nav-tabs .nav-link.active {
@@ -178,10 +184,10 @@
   }
   .client-gallery .custom-tab-button .nav-tabs .nav-link {
     border: none;
-    font-family: var(--ff-primary);
-    font-weight: 400;
+    font-family: var(--ff-secondary);
+    font-weight: 700;
     font-size: 16px;
-    padding: 10px 30px 6px 30px;
+    padding: 10px 30px;
     border-radius: 0;
     background-color: transparent;
     color: var(--c-black-700);
@@ -192,6 +198,8 @@
   .client-gallery .custom-imglist .work-sample-link img {
     width: 100%;
     transition: all 0.8s ease-in-out;
+    height: 280px;
+    object-fit: cover;
   }
   .client-gallery .custom-imglist .work-sample-link:hover img{
     transform: scale(1.05);
@@ -199,7 +207,7 @@
   .custom-imglist .work-sample-link {
     display: block;
     overflow: hidden;
-    padding: 0 10px;
+    margin: 0 10px;
   }
   /*----------client-photo-end-----------*/
 
