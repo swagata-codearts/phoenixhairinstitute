@@ -38,7 +38,27 @@
   }
   /*----------about-end------------*/
   /*---------the-best-start--------*/
-
+  .best-img-video {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(84,124,172,0.5);
+    padding: 21px;
+    font-size: 23px;
+  }
+  .best-img-video h4 span {
+    display: inline-flex;
+    height: 60px;
+    width: 60px;
+    background-color: var(--c-white-900);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--c-primary);
+    margin-left: 20px;
+  }
   .the-best .custom-heading {
     margin-bottom: 20px;
   }
@@ -213,7 +233,7 @@
   /*----------client-photo-end-----------*/
   /*-------------------faq-start-------------------*/
   /*-------------------faq-end-------------------*/
-  
+
 /*----------Responsive-Start------------*/
 @media (min-width: 1920px) and (max-width: 2500px){
 	
