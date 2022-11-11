@@ -68,14 +68,55 @@
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 700;
-  line-height: 56px;
   padding: 0 !important;
   position: relative;
 }
+.header-nav_link::after {
+  display: none;
+}
 .header-nav_link:hover  {
   color: var(--c-primary);
+  text-align: center;
 }
-.header-nav_link::after {
+.header-nav_item  {
+  position: relative;
+  line-height: 56px;
+}
+.header-nav_item .dropdown-menu  {
+  transition: all 0.6s ease-in-out;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid rgb(245, 246, 250);
+box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
+}
+.header-nav_item .dropdown-menu li {
+  line-height: 35px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: var(--ff-secondary);
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+}
+.header-nav_item .dropdown-menu li .dropdown-item {
+  font-weight: 500;
+  color: var(--c-grey-800);
+}
+.header-nav_item:hover .header-nav_link-menu {
+  display: block;
+}
+.dropdown-sub:hover .header-nav_link-sub-dropdown {
+  display: block;
+}
+.header-nav_link-sub-dropdown {
+  left: 350px !important;
+  width: 100%;
+  bottom: -70px;
+}
+.header-nav_link-sub::after {
+  display: none;
+}
+.header-nav_item::after {
   position: absolute;
   content: '';
   width: 5px;
@@ -88,7 +129,7 @@
   border-radius: 5px 5px 0 0;
   transition: all 0.5s ease-in-out;
 }
-.header-nav_link::before {
+.header-nav_item::before {
   position: absolute;
   content: '';
   width: 5px;
@@ -101,10 +142,10 @@
   border-radius: 5px 5px 0 0;
   transition: all 0.5s ease-in-out;
 }
-.header-nav_link:hover::after  {
+.header-nav_item:hover::after  {
   height: 25px;
 }
-.header-nav_link:hover::before  {
+.header-nav_item:hover::before  {
   height: 18px;
 }
 
@@ -933,7 +974,7 @@ align-items: center;
 .header-nav {padding: 15px 0;}
 .header-nav .navbar-collapse {padding: 10px 0;}
 .header-nav_link {line-height: 42px;}
-.header-nav_link::before, .header-nav_link::after {display: none;}
+.header-nav_item::before, .header-nav_item::after {display: none;}
 .header-bottom_button {text-align: center;}
 
 .custom-banner {margin-top: 145.8px;}
@@ -979,6 +1020,7 @@ align-items: center;
 .location_card .telephone {font-size: 20px;}
 .quotes {margin: 20px 0 10px;}
 .quotes blockquote  {font-size: 18px;line-height: 30px;}
+.header-nav_item .dropdown-menu {transform: unset;border: none;box-shadow: none;}
 /* fdev-sb */
 }
 
