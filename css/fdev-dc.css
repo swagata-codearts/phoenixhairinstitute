@@ -164,6 +164,9 @@
     }
   /*----------specialties-end-----------*/
   /*----------client-photo-start-----------*/
+  .client-gallery {
+    text-align: center;
+  }
   .client-gallery .custom-tab-button .nav-tabs {
     border: none;
     padding-bottom: 75px;
