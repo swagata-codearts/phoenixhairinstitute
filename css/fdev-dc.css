@@ -318,7 +318,12 @@
   /*---------gallery-end----------*/
   /*---------cta-start------------*/
   .cta{background-position: center right;}
-  /*---------cta-end------------*/   
+  /*---------cta-end------------*/
+  /*------------------client-gallery-start------------------*/
+  .client-gallery .client-gallery-custom-button {margin-top: 30px;}
+  .client-gallery .custom-heading {margin-bottom: 30px;}
+  .client-gallery .custom-tab-button .nav-tabs {padding-bottom: 30px;}
+  /*------------------client-gallery-end------------------*/   
 }
 
 
@@ -345,6 +350,11 @@
   .about-us .custom-heading {margin-bottom: 15px;}
   .the-best .custom-heading {margin-bottom: 15px;}
   .gallery .custom-heading {margin-bottom: 15px;}
+  /*------------------client-gallery-start------------------*/
+  .client-gallery .client-gallery-custom-button {margin-top: 20px;}
+  .client-gallery .custom-heading {margin-bottom: 20px;}
+  .client-gallery .custom-tab-button .nav-tabs {padding-bottom: 20px;}
+  /*------------------client-gallery-end------------------*/  
 }
 
 @media only screen and (max-width: 480.98px) {	
