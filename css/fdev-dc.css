@@ -187,9 +187,7 @@
     padding: 10px 0;
   }
   .client-gallery .custom-imglist .work-sample-link img {
-    border-radius: 10px;
     width: 100%;
-    padding: 0 10px;
     transition: all 0.8s ease-in-out;
   }
   .client-gallery .custom-imglist .work-sample-link:hover img{
@@ -198,6 +196,7 @@
   .custom-imglist .work-sample-link {
     display: block;
     overflow: hidden;
+    padding: 0 10px;
   }
   /*----------client-photo-end-----------*/
 
