@@ -247,7 +247,7 @@
     border: 0;
   }
   .faq .faq-accordion .accordion-item .accordion-header {
-    box-shadow: -4px 3px 18.6px 1.4px rgba(236, 236, 236, 0.75);
+    box-shadow: -4px 4px 18.6px 4.4px rgba(236, 236, 236, 0.75);
     margin-bottom: 16px;
   }
   .faq .faq-accordion .accordion-button:focus {
@@ -288,7 +288,17 @@
   content: "-";
   transform: rotate(0deg);
 }
-  /*-------------------faq-end-------------------*/
+/*-------------------faq-end-------------------*/
+/*------------------services-start--------------*/
+.services .card-body {
+  text-align: center;
+}
+.services .card-body p {
+  padding: 10px 0;
+}
+
+
+/*------------------services-end--------------*/
 
 /*----------Responsive-Start------------*/
 @media (min-width: 1920px) and (max-width: 2500px){
@@ -404,7 +414,18 @@
   .client-gallery .client-gallery-custom-button {margin-top: 30px;}
   .client-gallery .custom-heading {margin-bottom: 30px;}
   .client-gallery .custom-tab-button .nav-tabs {padding-bottom: 30px;}
-  /*------------------client-gallery-end------------------*/   
+  /*------------------client-gallery-end------------------*/
+  /*------------------faq-start-----------------------*/
+  .faq .faq-accordion .accordion-button:focus {font-size: 20px;}
+  .faq .accordion-button.collapsed {font-size: 20px;}
+  .accordion-button:not(.collapsed) {font-size: 20px;}
+  /*------------------faq-end-----------------------*/
+  /*-----------------service-start------------------*/
+  .services .card {margin-bottom: 10px;}
+  .services .custom-heading {
+    text-align: center;
+  }
+  /*-----------------service-end------------------*/    
 }
 
 
@@ -445,7 +466,12 @@
   /*----------the-best-start-----------*/
   .the-best .best-img-video {width: 200px;height: 60px;}
   .the-best .best-img-video h4 {font-size: 20px;padding-top: 10px;}
-  /*----------the-best-end-----------*/  
+  /*----------the-best-end-----------*/
+    /*------------------faq-start-----------------------*/
+    .faq .faq-accordion .accordion-button:focus {font-size: 16px;}
+    .faq .accordion-button.collapsed {font-size: 16px;}
+    .accordion-button:not(.collapsed) {font-size: 16px;}
+    /*------------------faq-end-----------------------*/  
 }
 
 @media only screen and (max-width: 480.98px) {	
