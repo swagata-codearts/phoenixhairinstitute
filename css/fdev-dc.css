@@ -1,0 +1,385 @@
+  /*----------about-start------------*/
+  /*.about-us .about-image-wrap.d-flex.align-items-center {
+    gap: 0 20px;
+  }*/
+  .about-us .about-content-wrap .heading {
+    width: 62%;
+    margin-left: 0;
+  }
+  .about-us .about-img img {
+    width: 100%;
+  }
+  .about-us .about-content-wrap {
+    padding-left: 62px;
+  }
+  .about-us .about-custom-button {
+    margin-top: 35px;
+  }
+  .about-us .custom-heading {
+    margin-bottom: 15px;
+  }
+
+  .about-us {
+    background-image: url(../images/about-bg.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .about-us .about-img {
+    position: relative;
+  }
+  .about-image-wrap.d-flex.align-items-center {
+    gap: 0 15px;
+  }
+  .about-us .about-image-small {
+    position: absolute;
+    left: -100px;
+    top: 255px;
+    bottom: 200px;
+  }
+  /*----------about-end------------*/
+  /*---------the-best-start--------*/
+  .best-img-video {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(84,124,172,0.5);
+    padding: 21px;
+    font-size: 23px;
+  }
+  .best-img-video h4 span {
+    display: inline-flex;
+    height: 60px;
+    width: 60px;
+    background-color: var(--c-white-900);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--c-primary);
+    margin-left: 20px;
+  }
+  .the-best .custom-heading {
+    margin-bottom: 20px;
+  }
+  .the-best .the-best-custom-button {
+    margin-top: 35px;
+  }
+  .the-best .the-best-content-wrap {
+    padding-right: 50px;
+    padding-top: 25px;
+  }
+  .best-img{
+    position: relative;
+  }
+  .best-img img{
+    width: 100%;
+  }
+  .the-best .best-img-video img {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: auto;
+  }
+  /*---------the-best-end--------*/
+  /*---------cta-start-----------*/
+  .cta{
+    background-image: url(../images/professional-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+  }
+  .cta .custom-button-alt {
+    margin-top: 35px;
+  }
+
+   /*---------cta-end-----------*/
+  /*----------gallery-start--------*/
+  .gallery .gallery-content-wrap .heading {
+    width: 62%;
+  }
+  .gallery {
+    text-align: center;
+  }
+  .gallery .gallery-custom-img img {
+    width: 100%;
+  }
+  .gallery .custom-heading {
+    margin-bottom: 60px;
+  }
+  .gallery .gallery-custom-button {
+    margin-top: 60px;
+  }
+  /*----------gallery-end--------*/
+  /*----------specialties-start-----------*/
+  .specialties {
+    text-align: center;
+    background-color: var(--c-white-800);
+  }
+  .specialties .custom-heading {
+    margin-bottom: 60px;
+  }
+  .specialties .specialties-img-wrap .special-img {
+    display: inline-flex;
+    justify-content: center;
+    background-color: var(--c-white-900);
+    padding: 40px;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+  }
+  .specialties .specialties-heading h4{
+    font-size: 21px;
+    line-height: 35px;
+    font-family: var(--ff-primary);
+    color: var(--c-black-700);
+  }
+  .specialties .specialties-paragraph p {
+    color: var(--c-grey-800);
+    font-size: 15px;
+    line-height: 31px;
+    padding: 20px 0 30px 0;
+  }
+  .specialties .specialties-custom-button {
+    font-size: 14px;
+    color: var(--c-primary);
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .specialties .specialties-img-wrap {
+    padding-bottom: 40px;
+  }
+  .specialties .specialties-button span {
+    padding-left: 10px;
+    color: var;
+  }
+  .specialties .specialties-heading {
+    padding: 0 82px;
+  }
+  .specialties .specialties-paragraph {
+    padding: 0 38px;
+    min-height: 174px;
+  }
+  .specialties .specialties-content-wrap {
+    position: relative;
+    min-height: 446px;
+    }
+  .specialties .specialties-content-wrap::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: -10px;;
+      height: 95%;
+      width: 1px;
+      background-color: var(--c-white-700);
+    }
+  .specialties [class*="col-"]:last-child .specialties-content-wrap::after {
+      display: none;
+    }
+    .specialties .specialties-paragraph.sll {
+      padding: 0 43px;
+      min-height: 174px;
+    }
+  /*----------specialties-end-----------*/
+  /*----------client-photo-start-----------*/
+  .client-gallery {
+    text-align: center;
+  }
+  .client-gallery .custom-heading {
+    margin-bottom: 60px;
+  }
+  .client-gallery .client-gallery-custom-button {
+    margin-top: 55px;
+  }
+  .client-gallery .custom-tab-button .nav-tabs {
+    border: none;
+    padding-bottom: 60px;
+    justify-content: center;
+  }
+  .client-gallery .custom-tab-button .nav-tabs .nav-link.active {
+    background-color: var(--c-primary);
+    color: var(--c-white-900);
+  }
+  .client-gallery .custom-tab-button .nav-tabs .nav-link {
+    border: none;
+    font-family: var(--ff-secondary);
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 0;
+    background-color: transparent;
+    color: var(--c-black-700);
+  }
+  .client-gallery .custom-imglist [class*="col-"] {
+    padding: 12px 6px;
+    display: none;
+  }
+  .client-gallery .custom-imglist .work-sample-link img {
+    width: 100%;
+    transition: all 0.8s ease-in-out;
+    height: 280px;
+    object-fit: cover;
+  }
+  .client-gallery .custom-imglist .work-sample-link:hover img{
+    transform: scale(1.05);
+  }
+  .custom-imglist .work-sample-link {
+    display: block;
+    overflow: hidden;
+    margin: 0 10px;
+  }
+  /*----------client-photo-end-----------*/
+  /*-------------------faq-start-------------------*/
+  /*-------------------faq-end-------------------*/
+
+/*----------Responsive-Start------------*/
+@media (min-width: 1920px) and (max-width: 2500px){
+	
+}
+
+@media (min-width: 1600px) and (max-width: 1920px){
+	
+}
+
+@media (min-width: 1366px) and (max-width: 1600px){
+  /*-------about-start---------*/
+  .about-us .about-content-wrap .heading {width: 70%;}
+  .about-image-wrap.d-flex.align-items-center {padding-left: 70px;}
+  .about-us .about-content-wrap {padding-left: 30px;}
+  /*-------about-end---------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-paragraph {padding: 0 12px;}
+  .specialties .specialties-heading {padding: 0 56px;}
+	/*-------specialties-end---------*/
+  /*---------the-best-start----------*/
+  .the-best .the-best-content-wrap {padding-right: 10px;}
+  /*---------the-best-end----------*/
+}
+@media (min-width: 1200px) and (max-width: 1366px){
+  /*-------about-start---------*/
+  .about-us .about-content-wrap .heading {width: 85%;}
+  .about-image-wrap.d-flex.align-items-center {padding-left: 70px;}
+  .about-us .about-content-wrap {padding-left: 30px;}
+  .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
+  /*-------about-end---------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-paragraph {padding: 0 19px;}
+  .specialties .specialties-heading {padding: 0 34px;}
+	/*-------specialties-end---------*/
+  /*---------the-best-start----------*/
+  .the-best .the-best-content-wrap {padding-right: 10px;}
+  .the-best .the-best-image-wrap {padding-top: 120px;}
+  /*---------the-best-end----------*/
+}
+
+@media (min-width: 1024px) and (max-width: 1200px){
+  /*-------about-start---------*/
+  .about-us .about-content-wrap .heading {width: 100%;}
+  .about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 200px;}
+  .about-us .about-content-wrap {padding-left: 30px;}
+  .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
+  /*-------about-end---------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-paragraph {padding: 0 19px;}
+  .specialties .specialties-heading {padding: 0 34px;}
+	/*-------specialties-end---------*/
+  /*---------the-best-start----------*/
+  .the-best .the-best-content-wrap {padding-right: 0;}
+  /*---------the-best-end----------*/
+	
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  /*-------about-start---------*/
+  .about-us .about-content-wrap .heading {width: 100%;}
+  .about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 200px;}
+  .about-us .about-content-wrap {padding-left: 30px;}
+  .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
+  /*-------about-end---------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-content-wrap{padding-bottom: 40px;}
+  .specialties .specialties-content-wrap::after{height: 80%;}
+  .specialties [class*="col-"]:nth-child(2) .specialties-content-wrap::after {display: none;}
+  .specialties .specialties-button {margin-top: -20px;}
+  /*-------specialties-end---------*/
+  /*---------the-best-start----------*/
+  .the-best .the-best-content-wrap {padding-right: 0;}
+  .the-best .the-best-image-wrap {padding-top: 200px;}
+  /*---------the-best-end----------*/
+	
+}
+
+@media only screen and (max-width: 991.98px) {
+  /*-----------about-start------------*/
+  .about-us .about-image-small{left: -27px;}
+  .about-us {text-align: center;}
+  .about-us .about-content-wrap {padding-left: 0;}
+  .about-us .about-content-wrap .heading {width: 100%;}
+  .about-us .custom-heading {margin-bottom: 30px;}
+  .about-us .custom-heading .sub-heading{margin-bottom: 0;margin-top: 20px;}
+  /*-----------about-end------------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-content-wrap{padding-bottom: 40px;}
+  .specialties .specialties-content-wrap::after{height: 80%;}
+  .specialties [class*="col-"]:nth-child(2) .specialties-content-wrap::after {
+    display: none;
+  }
+  .specialties .custom-heading {margin-bottom: 30px;}
+  /*-------specialties-end---------*/
+  /*---------the-best-start----------*/
+  .the-best {text-align: center;}
+  .the-best .the-best-content-wrap {padding-right: 0;padding-top: 0;padding-bottom: 40px;}
+  .the-best .custom-heading {margin-bottom: 30px;}
+  /*---------the-best-end----------*/
+  /*---------gallery-start----------*/
+  .gallery .gallery-content-wrap .heading {width: 100%;}
+  .gallery .custom-heading {margin-bottom: 30px;}
+  .gallery .gallery-custom-button {margin-top: 30px;}
+  /*---------gallery-end----------*/
+  /*---------cta-start------------*/
+  .cta{background-position: center right;}
+  /*---------cta-end------------*/
+  /*------------------client-gallery-start------------------*/
+  .client-gallery .client-gallery-custom-button {margin-top: 30px;}
+  .client-gallery .custom-heading {margin-bottom: 30px;}
+  .client-gallery .custom-tab-button .nav-tabs {padding-bottom: 30px;}
+  /*------------------client-gallery-end------------------*/   
+}
+
+
+@media (max-width: 767.98px){
+  /*-----------about-end------------*/
+  .specialties .specialties-content-wrap::after {display: none;}
+  /*-----------about-end------------*/
+  /*---------gallery-start----------*/
+  .gallery-custom-img {padding-bottom: 10px;}
+  /*---------gallery-end----------*/
+  /*-------specialties-start---------*/
+  .specialties .specialties-button {margin-top: -20px;}
+  /*-------specialties-end---------*/
+  
+}
+
+@media (max-width: 575.98px){
+  /*-----------about-start------------*/
+  .about-us .about-image-small {left: -14px;top: 119px;}
+  .specialties .specialties-heading {padding: 0 43px;}
+  .specialties .specialties-button {margin-top: 0;}
+  /*-----------about-end------------*/
+  .the-best .best-img-video img{width: 100%;}
+  .about-us .custom-heading {margin-bottom: 15px;}
+  .the-best .custom-heading {margin-bottom: 15px;}
+  .gallery .custom-heading {margin-bottom: 15px;}
+  /*------------------client-gallery-start------------------*/
+  .client-gallery .client-gallery-custom-button {margin-top: 20px;}
+  .client-gallery .custom-heading {margin-bottom: 20px;}
+  .client-gallery .custom-tab-button .nav-tabs {padding-bottom: 20px;}
+  /*------------------client-gallery-end------------------*/  
+}
+
+@media only screen and (max-width: 480.98px) {	
+    
+}
+/*----------Responsive-End------------*/

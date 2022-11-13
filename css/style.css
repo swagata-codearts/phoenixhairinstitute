@@ -1,23 +1,26 @@
 /******** Google Fonts ********/
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Prata&display=swap');
 
 /******** Color Schemes ********/
-/*
 :root {
-  --c-primary-dark: #FC6400;
-  --c-white: #ffffff;
-  --c-blue: #0012A2;
-  --c-red: #F12D2D;
-  --c-black-text: #000000;
-  --c-light-grey: #C0C0C0;
-  --c-dark-grey: #4F4F4F;
-  --c-primary-text: #FF5600;
-  --c-secondary-text: #2D2D2D;
-  --c-semi-grey: #666666;
-  --ff-primary: 'Montserrat', sans-serif;
+  --c-primary: #4e79ae;
+  --c-blue-alt : #625c90;
+
+  --c-blue-600 : #41484e;
+
+  --c-white-900: #ffffff;
+  --c-white-800: #f1f4f6;
+  --c-white-700: #e6e6e6;
+
+  --c-black-900: #000;
+  --c-black-800: #232323;
+  --c-black-700: #292929;
+  --c-grey-800: #616161;
+
+  --ff-primary: 'Prata', serif;
+  --ff-secondary: 'DM Sans', sans-serif;
+
 }
-*/
 
 /******** CSS Resets ********/
 * {
@@ -49,18 +52,19 @@ a:hover {
 }
 
 p {
+  color: var(--c-grey-800);
+  font-family: var(--ff-secondary);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 32px;
   margin: 0;
   padding: 0;
-  font-size: 14px;
-  color: var(--c-black-text);
-  line-height: 18px;
-  font-weight: 400;
 }
 
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--ff-secondary);
   font-size: 14px;
-  color: var(--c-black-text);
+  color: var(--c-black-800);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,31 +72,75 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 
+h4, h5, h6 {
+  font-family: var(--ff-secondary);
+}
+
 /******** Utility Classes ********/
-/*
+
 .container {
-  width: 100%;
-  max-width: 1360px;
+  max-width: 1440px;
 }
-*/
+.container-alt  {
+  max-width: 1566px;
+}
 
+/******** Custom Properties ********/
 .custom-pad {
-  padding: 60px 0;
+  padding: 110px 0;
 }
-
+.custom-heading .sub-heading {
+  font-size: 14px;
+  color: var(--c-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 56px;
+  letter-spacing: 1.28px;
+  font-family: var(--ff-secondary);
+  margin-bottom: 10px;
+}
+.custom-heading .heading {
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 66px;
+  color: var(--c-black-700);
+}
+.custom-heading-white .sub-heading, .custom-heading-white .heading{
+  color: var(--c-white-900);
+}
+.custom-button{
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  padding: 0 67px;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  border: 2px solid var(--c-primary);
+  transition: all 0.3s ease-in-out;
+  height: 52px;
+  align-items: center;
+}
+.custom-button:hover{
+  background-color: transparent;
+  color: var(--c-primary);
+}
+.custom-button-alt{
+  background-color: var(--c-white-900);
+  color: var(--c-primary);
+  border: 2px solid var(--c-white-900);
+}
+.custom-button-alt:hover{
+  background-color: var(--c-primary);
+  color: var(--c-white-900);
+  border: 2px solid var(--c-primary);
+}
+.custom-paragraph p:not(:last-child) {
+  padding-bottom: 20px;
+}
 
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-start=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
-.navbar-default .navbar-toggler .icon-bar {
-  background-color: #fff;
-}
-
-.navbar-toggler .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-
 .navbar-default .navbar-toggler .icon-bar {
   background-color: #fff;
 }
@@ -121,6 +169,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 22px;
   height: 2px;
   border-radius: 1px;
+  background: var(--c-primary);
 }
 
 .navbar-toggler .icon-bar + .icon-bar {
@@ -134,5 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-header {
   display: none;
 }
-
+.navbar-toggler:focus {
+  box-shadow: none;
+}
 /*=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+toggle-nav-css-end=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+*/
