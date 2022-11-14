@@ -387,6 +387,9 @@
   .the-best .the-best-image-wrap {padding-top: 200px;}
   .the-best .best-img-video{width: 300px;}
   /*---------the-best-end----------*/
+  /*------------hair-transplant-start-------------*/
+  .inner-heading .s-heading {font-size: 32px;line-height: 30px;}
+  /*------------hair-transplant-end-------------*/
 	
 }
 
@@ -430,13 +433,17 @@
   .faq .faq-accordion .accordion-button:focus {font-size: 20px;}
   .faq .accordion-button.collapsed {font-size: 20px;}
   .accordion-button:not(.collapsed) {font-size: 20px;}
+  .faq .custom-heading {margin-bottom: 30px;}
   /*------------------faq-end-----------------------*/
   /*-----------------service-start------------------*/
   .services .card {margin-bottom: 10px;}
   .services .custom-heading {
     text-align: center;
   }
-  /*-----------------service-end------------------*/    
+  /*-----------------service-end------------------*/
+    /*------------hair-transplant-start-------------*/
+    .inner-heading .s-heading {font-size: 24px;}
+    /*------------hair-transplant-end-------------*/    
 }
 
 
@@ -483,6 +490,7 @@
     .faq .faq-accordion .accordion-button:focus {font-size: 16px;}
     .faq .accordion-button.collapsed {font-size: 16px;}
     .accordion-button:not(.collapsed) {font-size: 16px;}
+    .faq .custom-heading {margin-bottom: 20px;}
     /*------------------faq-end-----------------------*/  
 }
 
