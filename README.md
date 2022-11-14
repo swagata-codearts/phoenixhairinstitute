@@ -6,7 +6,7 @@ NuHair Transplants offers state of the art surgical and non-surgical hair restor
 ## Authors
 
 - [@swagata-codearts](https://github.com/swagata-codearts)
-- [@swagata-codearts](https://github.com/Deep1407)
+- [@Deep1407](https://github.com/Deep1407)
 
 ## Page Links
 
