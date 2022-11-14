@@ -848,6 +848,21 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
   background-color: #fff;
   border-bottom: 1px solid #ebe8e2;
 }
+#innerPageModal .modal-dialog {
+  max-width: 85vw;
+  height: 400px;
+  margin: 0 auto;
+}
+#innerPageModal .modal-content {
+  height: 100%;
+}
+#innerPageModal .modal-body {
+  margin: 0;
+}
+#innerPageModal iframe {
+  width: 100%;
+  height: 100%;
+}
 
 /* HAIR TRANSPLANTS PAGE */
 .quotes {
