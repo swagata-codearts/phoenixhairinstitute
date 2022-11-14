@@ -18,4 +18,3 @@ NuHair Transplants offers state of the art surgical and non-surgical hair restor
 - [CLIENT PHOTOS](https://swagata-codearts.github.io/phoenixhairinstitute/client-photos.html)
 - [CONTACT US](https://swagata-codearts.github.io/phoenixhairinstitute/contact-us.html)
 - [FAQ](https://swagata-codearts.github.io/phoenixhairinstitute/faq.html)
-- [COVID-19](https://swagata-codearts.github.io/phoenixhairinstitute/covid-19.html)
