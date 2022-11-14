@@ -822,12 +822,6 @@ align-items: center;
   }
 }
 
-
-
-@media (min-width: 1920px) and (max-width: 2500px){}
-
-@media (min-width: 1600px) and (max-width: 1920px){}
-
 @media (min-width: 1400px) and (max-width: 1500px){
   .inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
 }
@@ -871,8 +865,6 @@ align-items: center;
 
 .inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
 .location_card  {margin: 12px 0px;height: 260px;}
-
-
 /* fdev-sb */
 }
 
@@ -957,10 +949,8 @@ align-items: center;
 
 .inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
 .location_card  {margin: 12px 0px;height: 260px;}
+.inner-heading .s-heading {font-size: 32px;line-height: 30px;}
 /* fdev-sb */
-  /*------------hair-transplant-start-------------*/
-  .inner-heading .s-heading {font-size: 32px;line-height: 30px;}
-  /*------------hair-transplant-end-------------*/
 }
 
 @media only screen and (max-width: 991.98px) {  
@@ -1025,10 +1015,8 @@ align-items: center;
 .quotes blockquote  {font-size: 18px;line-height: 30px;}
 .header-nav_item .dropdown-menu {transform: unset;border: none;box-shadow: none;}
 .hair-transplants_media {margin-bottom: 15px;}
+.inner-heading .s-heading {font-size: 24px;line-height: 36px;}
 /* fdev-sb */
-  /*------------hair-transplant-start-------------*/
-  .inner-heading .s-heading {font-size: 24px;line-height: 36px;}
-  /*------------hair-transplant-end-------------*/
 }
 
 @media (max-width: 767.98px){
@@ -1078,11 +1066,8 @@ align-items: center;
 .inner-contact_location .custom-heading, .hair-transplants .custom-heading {text-align: center;}
 .quotes {margin: 15px 0 5px;}
 .quotes blockquote  {font-size: 17px;padding: 30px 3%;}
-
+.inner-heading .s-heading {font-size: 22px;line-height: 32px;}
 /* fdev-sb */
-  /*------------hair-transplant-start-------------*/
-  .inner-heading .s-heading {font-size: 22px;line-height: 32px;}
-  /*------------hair-transplant-end-------------*/
 }
 
 @media (max-width: 575.98px){
@@ -1121,11 +1106,8 @@ align-items: center;
 .inner-banner_breadcrumb .breadcrumb {padding: 11px 0px;font-size: 11px;letter-spacing: 1px;}
 .quotes {margin: 15px 0 3px;}
 .quotes blockquote  {font-size: 16px;padding: 20px 3%;}
-
+.inner-heading .s-heading {font-size: 20px;line-height: 32px;}
 /* fdev-sb */
-  /*------------hair-transplant-start-------------*/
-  .inner-heading .s-heading {font-size: 20px;line-height: 32px;}
-  /*------------hair-transplant-end-------------*/
 }
 
 @media only screen and (max-width: 480.98px) {	
