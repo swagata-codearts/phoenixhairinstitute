@@ -888,7 +888,7 @@ align-items: center;
 
 .contact-top_content {padding-left: 35px;}
 .contact-top_content-link a {font-size: 68px;}
-.contact-bottom_form {top: -30%;width: unset;margin-left: 15px;}
+.contact-bottom_form {top: -30%;width: unset;}
 .contact-bottom_form-main form .form-control, .contact-bottom_form-main form .form-select {height: 46px;}
 .contact-bottom_list {margin-left: 34px;margin-top: 50px;}
 .contact-bottom_list li {font-size: 17px;line-height: 30px;}

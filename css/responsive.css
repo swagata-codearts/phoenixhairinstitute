@@ -69,7 +69,7 @@
 .custom-button {height: 34px;}
  p{font-size: 15px;line-height: 25px;}
  .custom-heading .heading {font-size: 25px;line-height: 40px;}
- .custom-paragraph p:not(:last-child) {padding-bottom: 0;}
+ .custom-paragraph p:not(:last-child) {padding-bottom: 10px;}
 /* custom props */ 
     
 }
