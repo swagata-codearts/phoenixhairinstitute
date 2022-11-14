@@ -958,6 +958,9 @@ align-items: center;
 .inner-contact-us-form .contact-bottom_form {margin: 30px 18px;}
 .location_card  {margin: 12px 0px;height: 260px;}
 /* fdev-sb */
+  /*------------hair-transplant-start-------------*/
+  .inner-heading .s-heading {font-size: 32px;line-height: 30px;}
+  /*------------hair-transplant-end-------------*/
 }
 
 @media only screen and (max-width: 991.98px) {  
@@ -1023,6 +1026,9 @@ align-items: center;
 .header-nav_item .dropdown-menu {transform: unset;border: none;box-shadow: none;}
 .hair-transplants_media {margin-bottom: 15px;}
 /* fdev-sb */
+  /*------------hair-transplant-start-------------*/
+  .inner-heading .s-heading {font-size: 24px;}
+  /*------------hair-transplant-end-------------*/
 }
 
 @media (max-width: 767.98px){
@@ -1074,6 +1080,9 @@ align-items: center;
 .quotes blockquote  {font-size: 17px;padding: 30px 3%;}
 
 /* fdev-sb */
+  /*------------hair-transplant-start-------------*/
+  .inner-heading .s-heading {font-size: 22px;}
+  /*------------hair-transplant-end-------------*/
 }
 
 @media (max-width: 575.98px){
@@ -1114,6 +1123,9 @@ align-items: center;
 .quotes blockquote  {font-size: 16px;padding: 20px 3%;}
 
 /* fdev-sb */
+  /*------------hair-transplant-start-------------*/
+  .inner-heading .s-heading {font-size: 20px;}
+  /*------------hair-transplant-end-------------*/
 }
 
 @media only screen and (max-width: 480.98px) {	
