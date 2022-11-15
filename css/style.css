@@ -1283,7 +1283,7 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
 }
 .client-gallery .custom-imglist [class*="col-"] {
   padding: 12px 6px;
-  display: none;
+  /* display: none; */
 }
 .client-gallery .custom-imglist .work-sample-link img {
   width: 100%;
