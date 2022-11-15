@@ -89,7 +89,7 @@
 /* custom props */
 /*----------fdev-dc-start-------------*/
 .about-us .about-content-wrap .heading {width: 100%;}
-.about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 200px;}
+.about-image-wrap.d-flex.align-items-center {padding-left: 70px;}
 .about-us .about-content-wrap {padding-left: 30px;}
 .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
 .specialties .specialties-paragraph {padding: 0 19px;}
@@ -142,7 +142,7 @@
 /* custom props */
 /*----------fdev-dc-start-------------*/
 .about-us .about-content-wrap .heading {width: 100%;}
-.about-image-wrap.d-flex.align-items-center {padding-left: 70px;padding-top: 200px;}
+.about-image-wrap.d-flex.align-items-center {padding-left: 70px;}
 .about-us .about-content-wrap {padding-left: 30px;}
 .about-us .about-image-small {position: absolute;left: -90px;top: 150px;}
 .specialties .specialties-content-wrap{padding-bottom: 40px;}
@@ -150,7 +150,6 @@
 .specialties [class*="col-"]:nth-child(2) .specialties-content-wrap::after {display: none;}
 .specialties .specialties-button {margin-top: -20px;}
 .the-best .the-best-content-wrap {padding-right: 0;}
-.the-best .the-best-image-wrap {padding-top: 200px;}
 .the-best .best-img-video{width: 300px;}
 .inner-heading .s-heading {font-size: 32px;line-height: 30px;}
 .services .card .card-img-top {height: 350px;}
@@ -269,7 +268,7 @@
 .header-top_right-link h6, .header-top_right-link p {font-size: 14px;line-height: 20px;}
 .header-nav {padding: 15px 0;}
 .header-nav .navbar-collapse {padding: 10px 0;}
-.header-nav_link {line-height: 42px;}
+.header-nav_link {line-height: 42px;text-align: center;}
 .header-nav_item::before, .header-nav_item::after {display: none;}
 .header-bottom_button {text-align: center;}
 
@@ -316,8 +315,7 @@
 .location_card .telephone {font-size: 20px;}
 .quotes {margin: 20px 0 10px;}
 .quotes blockquote  {font-size: 18px;line-height: 30px;}
-.header-nav_item .dropdown-menu {transform: unset;border: none;box-shadow: none;}
-/* .hair-transplants_media {margin-bottom: 15px;} */
+.header-nav_item .dropdown-menu {transform: unset;border: none;box-shadow: none;display: block;padding: 0;}
 .inner-heading .s-heading {font-size: 24px;line-height: 36px;}
 .hair-transplants_media.media-contain img {height: 160px;}
 .inner-contact .contact-bottom_image {height: 450px;}
