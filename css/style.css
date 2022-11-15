@@ -1316,6 +1316,21 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
   text-align: center;
 }
 .services .card-body p {
-  padding: 10px 0;
+  padding: 15px 0;
+}
+.services .custom-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.services .custom-button {
+  margin-bottom: 10px;
+}
+.services .card {
+  margin-bottom: 25px;
+}
+.services .card .card-img-top {
+  height: 450px;
+  object-fit: cover;
+  width: 100%;
 }
 /* ************** INNER PAGES END ************** */
