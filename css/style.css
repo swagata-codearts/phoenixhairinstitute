@@ -963,12 +963,18 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
 }
 .inner-about .hair-transplants_content .custom-paragraph ul li {
   font-size: 18px;
-  padding-bottom: 14px;
+  padding-left: 45px;
+}
+.inner-about .hair-transplants_content .custom-paragraph ul li:not(:last-child) {
+  padding-bottom: 15px;
 }
 .inner-about .custom-paragraph ul li::before {
   font-size: 16px;
   width: 30px;
   height: 30px
+}
+.media-contain img {
+  object-fit: contain !important;
 }
 
 /* INNER CONTACT FORM */
@@ -1051,10 +1057,21 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
 .inner-contact_location-alt {
   background-color: #fbfbfb;
 }
-.owl-nav.disabled {
-  display: flex !important;
+.contact-location-carousel .owl-nav {
+  display: flex ;
   align-items: center;
   justify-content: center;
+  gap: 8px;
+  padding-top: 15px;
+}
+.contact-location-carousel .owl-nav  button {
+  display: inline-flex;
+  width: 35px;
+  height: 35px;
+  background-color: var(--c-primary) !important;
+  align-items: center;
+  color: var(--c-white-900) !important;
+  font-size: 17px;
 }
 .inner-contact_location-wrap .row > * {
   margin: 0;
