@@ -153,6 +153,7 @@
 .the-best .the-best-image-wrap {padding-top: 200px;}
 .the-best .best-img-video{width: 300px;}
 .inner-heading .s-heading {font-size: 32px;line-height: 30px;}
+.services .card .card-img-top {height: 350px;}
 /*----------fdev-dc-end-------------*/
 /* fdev-sb */
 .header-top {padding: 20px 0;}
@@ -253,6 +254,8 @@
 .services .card {margin-bottom: 10px;}
 .services .custom-heading {text-align: center;}
 .inner-heading .s-heading {font-size: 24px;}
+.services .card .card-img-top {height: 350px;object-fit: cover;}
+.services .custom-heading {margin-bottom: 30px;}
 /*----------fdev-dc-end-------------*/
 /* fdev-sb */
 .custom-header {position: absolute;z-index: 999;background-color: var(--c-white-900);width: 100%;top: 0;}
@@ -419,6 +422,8 @@
 .faq .accordion-button.collapsed {font-size: 16px;}
 .accordion-button:not(.collapsed) {font-size: 16px;}
 .faq .custom-heading {margin-bottom: 20px;}
+.services .card .card-img-top {height: 300px;}
+.services .custom-heading {margin-bottom: 20px;}
 /*----------fdev-dc-end-------------*/  
 /* fdev-sb */
 .header-top_left .logo {height: 30px;}
