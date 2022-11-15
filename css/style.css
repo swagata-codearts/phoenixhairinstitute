@@ -1057,6 +1057,9 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
 .inner-contact_location-alt {
   background-color: #fbfbfb;
 }
+.contact-location-carousel .item {
+  margin: 0 0.625rem;
+}
 .contact-location-carousel .owl-nav {
   display: flex ;
   align-items: center;
