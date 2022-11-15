@@ -130,7 +130,7 @@
 .inner-about .custom-paragraph ul li::before {font-size: 15px;width: 25px;height: 25px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li:not(:last-child) {padding-bottom: 10px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li {font-size: 17px;padding-left: 35px;}
-/* .hair-transplants_media img {height: 670px;object-fit: cover;} */
+.business-opportunities .hair-transplants_media img {max-height: 440px;height: 440px;}
 /* fdev-sb */
 }
 @media (min-width: 992px) and (max-width: 1024px) {
@@ -203,6 +203,7 @@
 .inner-about .custom-paragraph ul li::before {font-size: 15px;width: 25px;height: 25px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li:not(:last-child) {padding-bottom: 10px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li {font-size: 17px;padding-left: 35px;}
+.business-opportunities .hair-transplants_media img {max-height: 440px;height: 440px;}
 /* fdev-sb */
 }
 @media only screen and (max-width: 991.98px) {   
@@ -317,7 +318,8 @@
 .inner-heading .s-heading {font-size: 24px;line-height: 36px;}
 .hair-transplants_media.media-contain img {height: 160px;}
 .inner-contact .contact-bottom_image {height: 450px;}
-.inner-contact .contact-bottom {padding: 0;}
+/* .inner-contact .contact-bottom {padding: 0;} */
+.inner-contact-p .contact-bottom {padding: 0;}
 .inner-about .custom-paragraph ul li::before {font-size: 15px;width: 25px;height: 25px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li:not(:last-child) {padding-bottom: 8px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li {font-size: 16px;padding-left: 35px;}
@@ -389,6 +391,7 @@
 .inner-heading .s-heading {font-size: 22px;line-height: 32px;}
 .inner-about .hair-transplants_content .custom-paragraph ul li {font-size: 15px;}
 .inner-contact .contact-bottom_image {height: 380px;}
+/* .hair-transplants_content .custom-paragraph {text-align: center;} */
 /* fdev-sb */
 }
 @media (max-width: 575.98px){

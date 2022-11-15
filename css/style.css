@@ -916,6 +916,17 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
   color: var(--c-primary);
   border-radius: 50%;
 }
+.hair-transplants_media .media-play::before {
+  position: absolute;
+  content: '';
+  -webkit-animation: ping 1s ease-in-out infinite both;
+  animation: ping 1s ease-in-out infinite both;
+  width: 100px;
+  height: 100px;
+  background-color: var(--c-white-700);
+  z-index: -3;
+  border-radius: 50%;
+}
 .hair-transplants_media img {
   width: 100%;
 }
@@ -1287,6 +1298,9 @@ box-shadow: 5px 5px 5px rgba(234, 236, 255, 0.57);
   display: block;
   overflow: hidden;
   margin: 0 10px;
+}
+.client-gallery .load-more-row > [class*="col-"] {
+  display: block !important;
 }
 
 /* FAQ PAGE */
